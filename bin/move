@@ -7,7 +7,7 @@ puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 print display_board(board)
 input = " "
-index = " "
+index = 2
 puts "Where would you like to go?"
 input = gets.strip
 input_to_index(input)
