@@ -12,7 +12,7 @@ puts display_board(board)
 
 #GetInput
 puts "Where would you like to go?"
-input = gets.strip
+gets.strip = input
 input_to_index(input)
 array_value = array
 #Place the move into the spot
