@@ -11,11 +11,11 @@ end
 #  player_input.to_i
 #end
 def input_to_index(player_input)
-  (player_input - 1)
-  return player_input
+  player_input - 1 = index
+  return index
 end
 
 #-----------------------------------------
-def move(board, player_input, value)
+def move(board, index, value)
   board[player_input] = value
 end
