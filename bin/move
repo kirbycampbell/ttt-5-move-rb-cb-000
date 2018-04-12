@@ -8,9 +8,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts display_board(board)
 
 #SetUp
-input = " "
-index = 2
-value = "X"
+
 
 #GetInput
 puts "Where would you like to go?"
@@ -18,7 +16,7 @@ input = gets.strip
 input_to_index(input)
 
 #Place the move into the spot
-move(board, array)
+move(board, index)
 
 #RunThisIntoTheGraphic
 display_board(board)
