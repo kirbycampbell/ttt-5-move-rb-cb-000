@@ -2,25 +2,23 @@
 
 require_relative '../lib/move.rb'
 
-# Code your CLI Here
+# Game Starts!-------------------------------------------
 puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-puts display_board(board)
-
-#SetUp
-input = " "
-array = 10
 value = "X"
 
-#GetInput
+puts display_board(board)
+# Board Displays Empty^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^
+
 puts "Where would you like to go?"
-input = gets.to_i
-input_to_index(input)
+player_input = gets.strip().to_i
+#Captured input and turned to integer ^^^^^^^^^^^^^^^^^^^^
 
-array_value = array
+convert_to_array(player_input)
+# Now player input is an array integer--------------------
 
-#Place the move into the spot
-move(board, array, value)
+move(board, player_input, value)
+#^^^Sends board, array choice from player, and X or O---------
 
 #RunThisIntoTheGraphic
 display_board(board)
