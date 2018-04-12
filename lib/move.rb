@@ -9,12 +9,8 @@ end
 # code your input_to_index and move method here!
 def input_to_index(input)
   input.to_i
-  puts input * 10
 end
 
-def move(array, index, value = "X")
-
-end
-
-def update_array_at_with(array, index, value)
+def move(array, index, value)
+  array[index] = value
 end
