@@ -10,10 +10,10 @@ end
 #def input_to_index(player_input)
 #  player_input.to_i
 #end
-#def convert_to_array(player_input)
-#  (player_input - 1)
-#  return player_input
-#end
+def convert_to_array(player_input)
+  (player_input - 1)
+  return player_input
+end
 
 #-----------------------------------------
 def move(board, player_input, value)
