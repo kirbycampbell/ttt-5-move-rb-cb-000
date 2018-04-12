@@ -17,5 +17,5 @@ end
 
 #-----------------------------------------
 def move(board, index, value)
-  board[player_input] = value
+  board[index] = value
 end
