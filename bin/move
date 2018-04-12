@@ -12,7 +12,7 @@ input = " "
 
 #GetInput
 puts "Where would you like to go?"
-gets.strip = input
+input = gets.to_i
 input_to_index(input)
 array_value = array
 #Place the move into the spot
