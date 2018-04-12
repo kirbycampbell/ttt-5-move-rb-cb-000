@@ -6,13 +6,13 @@ require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 value = "X"
-index =
+index = 0
 
 puts display_board(board)
 # Board Displays Empty^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^
 
 puts "Where would you like to go?"
-player_input = gets.strip().to_i
+player_input = gets.strip
 #Captured input and turned to integer ^^^^^^^^^^^^^^^^^^^^
 
 input_to_index(player_input)
