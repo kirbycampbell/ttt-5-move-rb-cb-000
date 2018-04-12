@@ -8,7 +8,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts display_board(board)
 
 #SetUp
-
+input = " "
 
 #GetInput
 puts "Where would you like to go?"
