@@ -11,7 +11,7 @@ end
 #  player_input.to_i
 #end
 def input_to_index(player_input)
-  player_input - 1 = index
+  index = player_input - 1
   return index
 end
 
