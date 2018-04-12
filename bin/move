@@ -10,6 +10,7 @@ puts display_board(board)
 #SetUp
 input = " "
 array = 10
+value = "X"
 #GetInput
 puts "Where would you like to go?"
 input = gets.to_i
