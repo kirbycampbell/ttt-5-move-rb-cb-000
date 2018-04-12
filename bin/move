@@ -12,14 +12,14 @@ input = " "
 index = 2
 value = "X"
 array = 10
+
 #GetInput
 puts "Where would you like to go?"
 input = gets.strip
 input_to_index(input)
-#Subtract from input to make array
 
 #Place the move into the spot
-move(array, index, value)
+move(board, array)
 
 #RunThisIntoTheGraphic
 display_board(board)
