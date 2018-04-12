@@ -8,6 +8,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts display_board(board)
 input = " "
 index = 2
+array = 1
 puts "Where would you like to go?"
 input = gets.strip
 input_to_index(input)
